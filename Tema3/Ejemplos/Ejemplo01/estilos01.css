@@ -1,0 +1,84 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    
+}
+
+#main {
+    width: 750px;
+}
+/*Section1*/
+#tit1 {
+    color: #008583;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+.destacado {
+    color: yellow;
+}
+
+.rojoFuerte {
+    color: red;
+    font-weight: bold;
+}
+/*Section2*/
+#tit2 {
+    color: blue;
+}
+
+.atencion{
+    color: red;
+}
+
+em{
+    color: #7578f8;
+}
+
+.especial {
+    color: blueviolet;
+}
+/*Section3*/
+#tabla {
+    border: 1px solid black;
+    border-spacing: 0px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.amarillo {
+    font-weight: bold;
+    color:#ff9f34;
+}
+
+.rojo{
+    color: red;
+    font-weight: bold;
+}
+
+.verde {
+    color: green;
+    font-weight:600;
+}
+
+.italica {
+    font-style: italic;
+    font-weight: lighter ;
+}
+
+.azul {
+    color: blue;
+}
+/*Section4*/
+#parrafoVerde {
+    color: #b19c47;
+    font-weight: 500;
+}
+
+#lila {
+    color: #ff2df8;
+    font-weight: 600;
+}
