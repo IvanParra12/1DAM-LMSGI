@@ -22,3 +22,7 @@ td img{
     height: 50px;
 }
 /*Colores de fondo*/
+td.rojo{ 
+    background-color: #ff0100;
+    color: white;
+}
