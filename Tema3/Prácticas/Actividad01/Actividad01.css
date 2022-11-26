@@ -26,3 +26,9 @@ td.rojo{
     background-color: #ff0100;
     color: white;
 }
+
+#gris ~ .GB{
+    font-size: 30px;
+    text-align: center;
+    background-color: #828282;
+}
