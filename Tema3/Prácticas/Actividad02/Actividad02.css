@@ -1,0 +1,85 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Estilos del titulo*/
+h1{
+    text-align: center;
+}
+
+/*Estilos de la tabla*/
+#horario{
+    border: 1px solid black;
+}
+
+.celda{
+    border: 1px solid black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.naranja{
+    background-color: orange;
+    font-weight: bold;
+}
+
+.azul{
+    background-color: aqua;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr:first-child ::first-letter{
+    font-size: 30px;
+}
+
+tr:first-child td:first-child{
+    background-color: white;
+}
+
+tr:nth-child(7) td:last-child{
+    background-color: lightgreen;
+}
+
+tr:nth-child(2) td:nth-child(2){
+    background-color: red;
+}
+
+td:last-child:hover{
+    font-size: 50px;
+}
+
+tr:nth-child(5) td:first-child:hover{
+    font-size: 16px;
+}
+
+tr:nth-child(3) td:nth-child(3):hover{
+    font-size: 16px;
+}
+
+tr:last-child td:first-child:hover{
+    font-size: 16px;
+}
+
+/*Estilos del formulario*/
+input{
+    margin-top: 20px;
+    background-color: pink;
+}
+
+input:focus{
+    background-color: yellow;
+}
+/*Estilos de los enlaces y del footer*/
+footer{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: lightgreen;
+}
+
+a:visited{
+    color: red;
+}
+
