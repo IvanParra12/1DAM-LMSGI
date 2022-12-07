@@ -1,0 +1,74 @@
+*{
+    font-family: 'La Belle Aurore', cursive;
+    background-color: lightcoral;
+}
+
+/*Estilos de las listas*/
+
+
+/*Estilos del parrafo*/
+#p1 {
+    font-size: 15;
+    background-color: lightgreen;
+    border: dashed black 2px;
+    letter-spacing: 1px;
+    text-align: justify;
+    width: 700px;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+a:visited{
+    color: green;
+}
+
+.color_fondo {
+    background-color: lightblue;
+    color: azure;
+}
+
+/*Estilos del formulario*/
+#field{
+    background-color: lightgreen;
+    width: 500px;
+}
+
+legend, label{
+    background-color: lightgreen;
+    font-weight: bold;
+}
+
+input, textarea{
+    background-color: white;
+}
+
+#area{
+    width: 300px;
+    height: 100px;
+}
+
+#btn{
+    background-color: grey;
+    color: white;
+    border: none;
+    height: 25px;
+}
+
+/*Estilos de Otros*/
+#video {
+    border: dashed 20px black;
+}
+
+/*Estilos del footer*/
+.copy{
+    font-size: 20px;
+    float: right;
+}
+
+.fa-arrow-up{
+    font-size: 50px;
+}

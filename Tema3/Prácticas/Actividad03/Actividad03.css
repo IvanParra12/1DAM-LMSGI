@@ -1,0 +1,16 @@
+nav{
+    border: 1px solid black;
+    width: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+    margin: 10px;
+    display: block;
+}
+
+a:hover {
+    background-color: grey;
+    color: white;
+}
