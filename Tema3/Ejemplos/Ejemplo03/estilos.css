@@ -9,23 +9,31 @@
 nav{
     float: right;
     font-size: 1.2em;
-    margin-top: 10px;
+    margin-top: 1%;
+    background-color: #515c61;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 a{
     text-decoration: none;
     padding-left: 40px;
+    padding-right: 20px;
     font-weight: bold;
-    color: darkgray;
+    color: white;
+    background-color: #515c61;
 }
 /*Cabecera*/
-#cabecera, nav, h1{
-    background-color: #f2f2f2;
+#cabecera h1{
+    background-color: #515c61;
+    color: white;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
-#cabecera h1, h2{
+#cabecera h2{
     color: darkgrey;
-    margin-left: 30px;
 }
 
 #nombre{
@@ -33,21 +41,54 @@ a{
 }
 
 #nombre h2{
-    padding-left: 60px;
+    padding-left: 8%;
+    font-size: 2em;
+    color: #515c61
 }
 
 #nombre blockquote{
     text-align: justify;
-    margin-left: -5%;
+    margin-left: -19%;
+    font-size: 1.3em;
+    padding-top: 1%;
 }
 
 .perfil{
+    margin-top: 3%;
     border-radius: 50%;
     width: 300px;
     height: 300px;
 }
 /*Sobre mi*/
-#sobre-mi header{
-    background-color: darkgray;
-    border: solid 2px red;
+#sobre-mi{
+    background-color: #3a4245;
+    height: 500px;
 }
+
+#sobre-mi img{  
+    margin-left: 20%;
+    height: 300px;
+    margin-top: 7%;
+}
+
+#sobre-mi header h2{
+    margin-top: -25%;
+    padding-top: 10px;
+    background-color: #3a4245;
+    padding-left: 43%;
+    color: #f2f2f2;
+    font-size: 3em;
+}
+
+#sobre-mi p{
+    width: 350px;
+    text-align: justify;
+    margin-left: 60%;
+    padding-top: 3%;
+    color: #fff;
+    background-color: #3a4245;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+
