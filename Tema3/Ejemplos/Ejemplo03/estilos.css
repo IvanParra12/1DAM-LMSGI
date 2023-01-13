@@ -92,7 +92,6 @@ a{
 }
 /*Skills*/
 #skills{
-    border: solid red 1px;
     margin-top: -2%;
 }
 /*Hard skills*/
@@ -121,7 +120,7 @@ a{
     padding-top: 2%;
     font-weight: bold;
     font-size: 2.5em;
-    padding-left: 60%;
+    padding-left: 65%;
     margin-top: -33.2%;
     padding-bottom: 2%;
 }
@@ -138,7 +137,75 @@ a{
     font-size: 2em;
     line-height: 50px;   
 }
+/*Email*/
+#email h2{
+    padding-top: 5%;
+    margin-left: 35%;
+    font-weight: bold;
+    font-size: 2.5em;
+}
 
+#email img{
+    height: 400px;
+    width: 300px;
+    padding-top: 3%;
+    margin-left: 25%;
+}
+/*Formulario*/
+#email form{
+    background-color: #c5c5c5;
+    border-radius:10px;
+    height: 350px;
+    width: 300px;
+    margin-left: 50%;
+    margin-top: -26%;
+    padding: 16px;
+}
 
+#email form label{
+    width: 72px;
+	font-weight: bold;
+	display: inline-block;
+    background-color: #c5c5c5;
+    font-size: 1.1em;
+    padding-right: 10px;
+}
 
+#email form input[type="text"],
+#email form input[type="email"]{
+	width: 180px;
+	padding: 10px 10px;
+	border: 1px solid #f6f6f6;
+	border-radius: 3px;
+	background-color: #f6f6f6;
+	margin: 8px 0;
+	display: inline-block;
+}
+
+#email form textarea{
+	width: 98%;
+	height: 100px;
+	border: 1px solid #f6f6f6;
+	border-radius: 3px;
+	background-color:#f6f6f6;			
+	margin: 8px 0;
+	resize: none;
+}
+
+#email button{
+    width: 100%;
+	padding: 8px 16px;
+	margin-top: 32px;
+	border: 1px solid black;
+	border-radius: 5px;
+	color: #fff;
+	background-color: black;
+    height: 12%;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#email button:hover{
+    cursor: pointer;
+}
 
