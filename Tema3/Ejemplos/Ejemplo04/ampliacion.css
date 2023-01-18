@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+}
+
+#recuadro{
+    border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 0 10% 0 10%;
+    box-shadow: 30px -10px 0px green, -40px 40px 10px yellow; border-radius: 10%;
+
+}
