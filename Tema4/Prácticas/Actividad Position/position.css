@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+}
+
+/*HEADER*/
+header{
+    background-color: blue;
+    height: 10%;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
+
+
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header li{
+    padding: 1%;
+    margin-top: 2%;
+    font-size: 25px;
+    margin-left: 2%;
+    color: #fff;
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+}
+
+header img{
+    height: 70px;
+    margin-top: -18%;
+}
+/*BIENVENIDA*/
+#bienvenida{
+    background-color: #acf;
+    display: flex;
+}
+
+#bienvenida img{
+    height: 10%;
+}
+
+#bienvenida p{
+    font-size: 3em;
+    text-align: left;
+    width: 40%;
+    margin-top: 3%;
+    line-height: 90px;
+    color: #394455;
+    margin-right: 1%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/*FILOSOFIA*/
+#filosofia{
+    background-color: #7188aa;
+    display: flex;
+}
+
+#filosofia h2{
+    width: 10%;
+    padding-top: 1%;
+    font-size: 5em;
+    margin-top: 13%;
+    margin-left: 20%;
+}
+
+#p1{
+    width: 60%;
+    text-align: justify;
+    line-height: 30px;
+    margin-left: 30%;
+    margin-top: 10%;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+#p2{
+    width: 60%;
+    text-align: justify;
+    line-height: 30px;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 1.1em;
+    color: #fff;
+    margin-bottom: 10%;
+}
+
+/*HORARIOS*/
+#horario{
+    background-color: #394455;
+    display: flex;
+}
+
+#horario h2{
+    color: #fff;
+    width: 10%;
+    padding-top: 1%;
+    font-size: 5em;
+    margin-top: 20%;
+    margin-left: 7%;
+}
+
+#horario img{
+    margin-left: 23%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    height: 500px;
+    width: 400px;
+}
+
+#p3{
+    width: 60%;
+    line-height: 45px;
+    margin-left: 5%;
+    margin-top: 15%;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.btn{
+    width: 290px;
+    height: 40px;
+    margin-top: 10%;
+    margin-left: 5%;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #394455;
+}
+
+.btn:hover{
+    background-color: #ffaacc;
+    color: black;
+    border-color: #ffaacc;
+
+}
+/*LOGROS*/
+#logros{
+    background-color: #acf;
+}
+
+#logros h2{
+    color: #394455;
+    font-size: 5em;
+    text-align: center;
+    padding-top: 1%;
+}
+
+#logros article ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 5%;
+}
+
+#logros article ul li{
+    margin-left: 3%;
+    margin-bottom: 5%;
+}
+
+#logros article img{
+    width: 300px;
+    height: auto;
+}
+
+#logro1:hover{
+    transform: rotate(15deg);
+    cursor: pointer;
+}
+#logro2:hover{
+    transform: rotate(30deg);
+    cursor: pointer;
+}
+#logro3:hover{
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+#logro4:hover{
+    transform: rotate(60deg);
+    cursor: pointer;
+}
+/*FOOTER*/
+/*LEGAL*/
+footer{
+    background-color: #394455;
+    padding-bottom: 5%;
+}
+
+#legal ul{
+    list-style-type: none;
+    width: 150px;
+}
+
+#legal li h3{
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 2%;
+}
+
+#legal li{
+    padding-top: 7%;
+}
+
+#legal a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*SOCIAL*/
+#social ul{
+    list-style-type: none; 
+}
+
+#social li h3{
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 2%;
+}
+
+#social li{
+    padding-top: 4.3%;
+    color: #fff;
+}
+
+/*CONTACTO*/
+#contacto ul{
+    list-style-type: none; 
+    width: 250px;
+}
+
+#contacto h3{
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 2%;
+    padding-top: 1.5%;
+    margin-left: 12%;
+}
+
+#contacto li{
+    line-height: 25px;
+    color: #fff;
+    padding-bottom: 2%;
+}
+
+/*PIE*/
+#pie{
+    display: flex;
+    margin-left: 25%;
+    padding-top: 3%;
+}
+
+/*FLECHA*/
+.fa-arrow-up{
+    color: #fff;
+    font-size: 6em;
+    position: fixed;
+    right: 20px;
+    top: 600px;
+
+}
+
+
+
