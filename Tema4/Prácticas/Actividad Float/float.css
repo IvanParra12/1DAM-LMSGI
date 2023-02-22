@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/*HEADER*/
+header{
+   background-color: #145369;
+   height: 10%;
+   display: flex;
+   flex-flow: column;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header a{
+    padding: 1%;
+    font-size: 25px;
+    margin-left: 6%;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 1.5%;
+}
+
+header img{
+    height: 100px;
+}
+
+header img, h1{
+    padding: 1%;
+    font-size: 25px;
+    margin-left: 10%;
+    color: #fff;
+}
+
+header li h1{
+    color: #fff;
+    font-size: 3em;
+    margin-top: 13%;
+}
+
+/*ASIDE*/
+aside{
+    float: left;
+    width: 20%;
+    height: 502px;
+    background-color: #145369;
+    margin-top: 2%;
+}
+
+aside ul{
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 10%;
+}
+
+aside li{
+    padding-top: 10%;
+}
+
+aside a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*CONTAINER*/
+.container{
+    padding: 20px;
+    overflow-y: auto;
+    width: auto;
+    margin-top: 0.6%;
+    height: auto;
+}
+/*ARTICLE*/
+article{
+    float: left;
+    height: 300px;
+    margin-left: 5%;
+    width: 20%;
+}
+
+.cajas{
+    width: 28%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.cajas img{
+    margin-left: 16%;
+}
+
+.cajas p{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.texto{
+    width: 28%;
+    height: auto;
+    margin-top: 2%;
+}
+
+.texto p{
+    margin-top: 5%;
+    text-align: left;
+}
+
+
+/*FOOTER*/
+footer{
+    background-color: blue;
+    float: left;
+    height: 90px;
+    width: 100%;
+}
+
+footer p{
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 2%;
+}
