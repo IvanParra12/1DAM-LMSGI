@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Caveat Brush', cursive;
+}
+
+/*HEADER*/
+header{
+    display: flex;
+    margin-top: 1%;
+    margin-left: 40%;
+}
+
+header img{
+    width: 100px;
+}
+
+header hgroup{
+    text-align: center;
+    margin-top: 1%;
+    color: #131826;
+}
+
+hr{
+    margin-top: 2%;
+    border: 2px solid #6077A6;
+}
+
+/*ASIDE*/
+aside{
+    width: 10%;
+    display: flex;
+    order: 1;
+}
+
+aside ul li{
+    list-style-type: none;
+    line-height: 60px;
+    font-size: 1.5em;
+}
+
+aside a{
+    text-decoration: none;
+    color: #9697C9;
+}
+
+/*MAIN*/
+main{
+    display: flex;
+}
+/*CONTAINER*/
+.container{
+    display: flex;
+    padding: 20px;
+    overflow-y: auto;
+    width: 90%;
+    height: auto;
+    order: 2;
+    flex-flow: wrap;
+}
+/*ARTICLE*/
+article{
+    border: 2px solid #9697C9;
+    height: auto;
+    border-radius: 5%;
+    margin-left: 5%; 
+    padding: 3%;
+    flex: 1 1 20%;
+}
+
+article p{
+    text-align: center;
+    margin-top: 2%;
+}
+
+
+article img{
+    border-radius: 5%;
+}
+/*ART1*/
+#galaxia{
+    width: 50%;
+}
+#galaxia img{
+    width: 600px;
+    height: 300px;
+}
+
+#galaxia p{
+    text-align: center;
+}
+
+/*ART2*/
+#cosmos{
+    width: 30%;
+    font-size: 1.2em;
+}
+#cosmos img{
+    width: 400px;
+    height: 250px;
+    margin-left: 5%;
+}
+
+/*ARTICULOS CON CLASE ABAJO*/
+.abajo{
+    width: 30%;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-size: 1.2em;
+}
+
+/*ART3*/
+#inter{
+    flex-grow: 4;
+}
+#inter img{
+    width: 350px;
+    height: 200px;
+}
+
+/*ART4*/
+#quasar{
+    flex-grow: 4;
+}
+#quasar img{
+    width: 350px;
+    height: 200px;
+}
+
+/*ART5*/
+#estrellas{
+    flex-grow: 4;
+}
+#estrellas img{
+    width: 350px;
+    height: 200px;
+}
+/*FOOTER*/
+footer{
+    display: flex;
+    width: 100%;
+    background-color: #1d262d;
+    color: #9697C9;
+    padding-bottom: 1%;
+}
+
+footer section:nth-child(1){
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 150px;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+footer section:nth-child(2){
+    margin-left: 26%;
+    margin-top: 3%;
+    font-size: 1.5em;
+}
+
+footer section:nth-child(3){
+    margin-left: 20%;
+}
+
+footer section:nth-child(3) ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 2em;
+    margin-top: 25%;
+}
+
+footer section:nth-child(3) a{
+    margin-left: 20%;
+    text-decoration: none;
+    color: #9697C9;
+}
